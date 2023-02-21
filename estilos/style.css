@@ -15,7 +15,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #5f2c82, #49a09d);
+    background-color: var(--lilas);
     color:black;
 }
 
@@ -49,8 +49,6 @@ body {
 
 
 #formulario {
-    
-    width: 96%;
     height: 50%;
     border-radius: 0px 0px 40px 40px;
     padding: 10px;
@@ -75,7 +73,12 @@ body {
     border-radius: 10px 10px 10px 10px;
     background-color: var(--verde);
     width:90%;
-    
+    transition: 1s;
+}
+
+#formulario input:hover {
+    cursor: pointer;
+    background-color: wheat;
 }
 
 .material-icons {
@@ -88,9 +91,10 @@ body {
     width: 90%;
 }
 
-.form-2 {
+.form-2 input {
     margin-bottom: 10px;
 }
+
 
 #ata input {
     background-color: white;
