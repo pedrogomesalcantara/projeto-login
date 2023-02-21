@@ -5,26 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="estilos/media-query.css" media="all">
+   
+
     <title>Projeto Login</title>
 </head>
 <body>
     <main>
+        
         <section id="login">
-
-            <div id="imagen">
-
-
+            
+            <div id="imagem">
+                <p>ata</p>
             </div>
+
 
             <div id="formulario">
+
                 <h1>login</h1>
+
                 <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-                <form action="cadastro.php" method="post" autocomplete="on"></form>
+                <form id="conteudo" action="cadastro.php" method="post" autocomplete="on">
 
+                <div class="int-input">
+
+                    <label for="iusu">
+                        <span class="material-icons">person</span> </label>
+
+                    <input type="text" name="usu" id="iusu" placeholder="Usuario" required size="10">
+
+                </div>
+                
+                
+                <div class="int-input">
+                    <label for="isen"><span class="material-icons">vpn_key</span></label>
+
+                        <input   type="password" name="sen" id="isen" placeholder="Senha" required size="10">
+                    </div>
+                    
+                    <div class="form-2">
+                        <input type="submit" name="sen" id="isen" value="Enviar">
+                    </div>
+
+                    <div id="ata"><input type="submit" name="sen" id="isen" value="Esqueceu a Senha&#9993"></div>
+                </form>
             </div>
-
+        
         </section>
+
+ 
+
     </main>
 </body>
 </html>
