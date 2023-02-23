@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Projeto Login</title>
+</head>
+<body>
+    <header>
+
+        <section id="login">
+        
+            <div id="imagem">
+            </div>
+            
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seje(a) bem vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
+
+                <form action="cadastro.php" method="post" autocomplete="on">
+
+                    
+                        <fieldset>
+                            <label for="iusu"><span class="material-icons">person</span></label>
+                            <input type="text" name="usu" id="iusu" required placeholder="Usuario">
+                        </fieldset>
+                           
+
+                                    <br>
+
+                    <fieldset>
+                        <label for="isen"><span class="material-icons">vpn_key</span></label>
+                        <input type="password" name="sen" id="isen" required minlength="8" placeholder="Senha">
+                    </fieldset>
+
+                    
+                        <section id="inpt2">
+
+                            <input type="submit" value="Enviar">
+                                            <br>
+                            <button><a href="#">Esqueceu a Senha  &#9993</a></button>
+
+                        </section>
+                    
+                </form>
+
+            </div>
+        
+        
+        </section>
+
+        
+    </header>
+</body>
+</html>
