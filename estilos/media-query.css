@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@media screen  and (min-width:300px) {
+@media screen  and (min-width:300px) and (max-width:600px) {
 
     body {
     
@@ -15,15 +15,16 @@
 
     .formul {
         color: red;
-        width: 90%;
+        width: 80vw;
         
     }
 
     #formulario {
         background-color: rgba(81, 255, 0, 0.514);
         border-radius: 0px 0px 50px 50px;
-        height: 60%;
-        width: 100%;
+        height: 54vh;
+        width: 90vw;
+        
     }
 
     section#login {
@@ -36,6 +37,68 @@
         height: 90vh;
         box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.788);
         border-radius: 50px;
+        
     }
+
+}
+
+
+@media screen and (min-width:600px) {
+
+
+    section#login {
+        background-color: rgb(148, 79, 71);
+        width: 90vw;
+        height: 40vh;
+        box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.788);
+        border-radius: 50px;
+        
+    }
+    
+    #imagem {
+        display: none;
+    }
+
+    .formul {
+        width: 90%; 
+        
+    }
+
+    #formulario {
+        background-color: rgba(19, 255, 216, 0.514);
+        border-radius: 0px 0px 50px 50px;
+        height: 40vh;
+        width: 60vw;
+        border-radius: 40px 0px 0px 40px;
+
+        
+    }
+
+    #formulario input {
+        width: 80%;
+        height: 4vh;
+    }
+
+    #inpt2 input {
+        width: 50%;
+        height: 4vh;
+        margin-top: 2.5vh;
+    }
+
+    #inpt2 button {
+        margin-top: 1vh;
+        width: 50%;
+        height: 4vh;
+        border-radius: 5px;
+        
+    }
+
+    fieldset {
+        background-color: bisque;
+        border:0px solid transparent;
+        width: 40vw;
+        word-wrap: break-word;
+    }
+
 
 }
