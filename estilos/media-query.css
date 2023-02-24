@@ -6,9 +6,36 @@
     box-sizing: border-box;
 }
 
-@media screen only and (min-width:600px) {
+@media screen  and (min-width:300px) {
 
+    body {
     
+        background-color: var(--lilas);
+    }
 
+    .formul {
+        color: red;
+        width: 90%;
+        
+    }
+
+    #formulario {
+        background-color: rgba(81, 255, 0, 0.514);
+        border-radius: 0px 0px 50px 50px;
+        height: 60%;
+        width: 100%;
+    }
+
+    section#login {
+        position: absolute;
+        background-color: rgb(148, 79, 71);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+        height: 90vh;
+        box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.788);
+        border-radius: 50px;
+    }
 
 }
